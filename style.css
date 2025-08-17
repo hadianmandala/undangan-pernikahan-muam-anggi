@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #fff0f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #ffc0cb;
+}
+
+.gallery {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery-images img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.rsvp {
+  padding: 2rem 1rem;
+  background: #fff;
+  text-align: center;
+}
+
+.rsvp form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, select, textarea, button {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.welcome-screen {
+  height: 100vh;
+  background-image: url('images/bg-couple.jpg'); /* ganti dengan gambar kamu */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.welcome-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.welcome-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.welcome-content button {
+  background: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.welcome-content button:hover {
+  background: #ff69b4;
+  color: white;
+}
+
+.countdown-section {
+  text-align: center;
+  padding: 2rem;
+  background: #ffe4e1;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+#countdown div {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 80px;
+}
+
+#countdown span {
+  font-size: 2rem;
+  display: block;
+}
+
+#countdown small {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.bride-groom {
+  background-color: #fffaf5;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.bride-groom .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.person {
+  max-width: 300px;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 50% 50% 45% 45%;
+  border: 6px solid #c9a86b;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  color: #7a5533;
+  margin-top: 1rem;
+  white-space: nowrap; /* 🔥 Menjaga nama tetap 1 baris */
+}
+
+.desc {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.address {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.ig-btn {
+  display: inline-block;
+  background-color: #c9a86b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+.ig-btn:hover {
+  background-color: #a58350;
+}
+
+.maps-section {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #fdf5f5;
+}
+
+.maps-section h2 {
+  margin-bottom: 1rem;
+  color: #7a5533;
+}
+
+.map-container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 3px solid #c9a86b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.map-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #c2795b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
+
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+  padding: 2rem;
+  font-size: 25px;
+}
+
+
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 2rem;
+  font-size: 23px;
+}
+
+.ucapan-section {
+  background: #fffaf5;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.ucapan-section h2 {
+  color: #7a5533;
+  margin-bottom: 1rem;
+}
+
+#ucapanForm {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#ucapanForm input,
+#ucapanForm textarea {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+#ucapanForm button {
+  background: #c9a86b;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#ucapanForm button:hover {
+  background: #a58350;
+}
+
+#listUcapan {
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.ucapan-item {
+  background: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.ucapan-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #7a5533;
+}
+
+
+.rsvp-section {
+  background-color: #fff0f5;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.rsvp-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+#rsvpForm {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#rsvpForm input,
+#rsvpForm select,
+#rsvpForm textarea {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+#rsvpForm button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#rsvpForm button:hover {
+  background-color: #e0559c;
+}
+
+#rsvpList {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rsvp-item {
+  background: #ffffff;
+  border-left: 5px solid #ff69b4;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.rsvp-item strong {
+  color: #c2185b;
+}
