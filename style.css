@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  background: #fff0f5;
+  background: #b2dfdb;
   color: #333;
   line-height: 1.6;
   padding: 1rem;
@@ -71,7 +71,7 @@ footer {
 
 .welcome-screen {
   height: 100vh;
-  background-image: url('images/bg-couple.jpg'); /* ganti dengan gambar kamu */
+  background-image: url('images/bg-couple.png'); /* ganti dengan gambar kamu */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -108,15 +108,32 @@ footer {
   transition: background 0.3s;
 }
 
-.welcome-content button:hover {
+/*.welcome-content button:hover {
   background: #ff69b4;
+  color: white;
+}*/
+
+.open-invitation-button {
+  background-color: #b2dfdb; /* Hijau muda (mint) */
+  color: #004d40;            /* Teks hijau tua */
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-content .open-invitation-button:hover {
+  background-color: #4caf50; /* hijau hover */
   color: white;
 }
 
 .countdown-section {
   text-align: center;
   padding: 2rem;
-  background: #ffe4e1;
+  background: #dcedc8;
 }
 
 #countdown {
@@ -145,7 +162,7 @@ footer {
 }
 
 .bride-groom {
-  background-color: #fffaf5;
+  background-color: #e0f2f1;
   padding: 3rem 1rem;
   text-align: center;
 }
@@ -209,7 +226,7 @@ footer {
 .maps-section {
   padding: 2rem 1rem;
   text-align: center;
-  background-color: #fdf5f5;
+  background-color: #dcedc8;
 }
 
 .maps-section h2 {
@@ -323,7 +340,7 @@ footer {
 
 
 .rsvp-section {
-  background-color: #fff0f5;
+  background-color: #dcedc8;
   padding: 2rem 1rem;
   text-align: center;
 }
@@ -354,8 +371,8 @@ footer {
 }
 
 #rsvpForm button {
-  background-color: #ff69b4;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
   padding: 0.8rem;
   border-radius: 8px;
@@ -366,7 +383,7 @@ footer {
 }
 
 #rsvpForm button:hover {
-  background-color: #e0559c;
+  background-color: #4caf50;
 }
 
 #rsvpList {
